@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+
+  text-shadow: 2px 2px #555555;
+}
+
+.countdown-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.big-text {
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1;
+  margin: 1rem 2rem;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgba(107, 105, 105, 0.459);
+}
+
+.countdown-el {
+  text-align: center;
+}
+
+.countdown-el span {
+  font-size: 1.2rem;
+  text-shadow: 2px 2px #555555;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://awsimages.detik.net.id/community/media/visual/2021/09/24/jennie-blackpink-2_43.jpeg?w=1200");
+
+  /* Add the blur effect */
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
