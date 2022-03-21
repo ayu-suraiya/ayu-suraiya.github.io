@@ -51,7 +51,7 @@ html {
 
 .bg-image {
   /* The image used */
-  background-image: url("https://awsimages.detik.net.id/community/media/visual/2021/09/24/jennie-blackpink-2_43.jpeg?w=1200");
+  background-image: url("img/ayu.jpg");
 
   /* Add the blur effect */
   filter: blur(3px);
